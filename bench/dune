@@ -1,24 +1,29 @@
 (executable
+ (modes byte exe)
  (name spawn)
  (modules spawn)
  (libraries benchmark reactor logs logs.fmt fmt fmt.tty))
 
 (executable
+ (modes byte exe)
  (name startup)
  (modules startup)
  (libraries benchmark reactor))
 
 (executable
+ (modes byte exe)
  (name message_passing_in_worker)
  (modules message_passing_in_worker)
  (libraries benchmark reactor logs logs.fmt fmt fmt.tty))
 
 (executable
+ (modes byte exe)
  (name message_passing_across_workers)
  (modules message_passing_across_workers)
  (libraries benchmark reactor logs logs.fmt fmt fmt.tty))
 
 (executable
+ (modes byte exe)
  (name fibonacci)
  (modules fibonacci)
  (libraries benchmark reactor logs logs.fmt fmt fmt.tty))

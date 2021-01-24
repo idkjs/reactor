@@ -11,21 +11,21 @@
   },
   "dependencies": {
     "@esy-ocaml/reason": "*",
-    "@opam/alcotest": "0.8.5",
-    "@opam/benchmark": "1.6",
-    "@opam/dune": "1.8.2",
+    "@opam/alcotest": "*",
+    "@opam/benchmark": "*",
+    "@opam/dune": "*",
     "@opam/fmt": "*",
     "@opam/logs": "*",
     "@opam/lwt": "*",
-    "@opam/odoc": "1.4.0",
-    "@opam/qcheck": "0.9",
-    "@opam/qcheck-alcotest": "0.9",
-    "ocaml": "~4.7.0",
+    "@opam/odoc": "*",
+    "@opam/qcheck": "*",
+    "@opam/qcheck-alcotest": "*",
+    "ocaml": "~4.10.1",
     "refmterr": "*"
   },
   "devDependencies": {
     "@opam/dune": "*",
     "@opam/merlin": "*",
-    "ocaml": "~4.7.0"
+    "ocaml": "~4.10.1"
   }
 }

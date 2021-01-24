@@ -9,8 +9,8 @@
     "@esy-ocaml/reason": "*",
     "@opam/fmt": "*",
     "@opam/logs": "*",
-    "@opam/tsdl": "0.9.6",
-    "ocaml": "~4.7.0",
+    "@opam/tsdl": "*",
+    "ocaml": "~4.10.0",
     "reactor": "*",
     "refmterr": "*"
   },
@@ -20,6 +20,6 @@
   "devDependencies": {
     "@opam/dune": "*",
     "@opam/merlin": "*",
-    "ocaml": "~4.7.0"
+    "ocaml": "~4.10.0"
   }
 }

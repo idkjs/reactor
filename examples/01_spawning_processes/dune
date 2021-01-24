@@ -1,3 +1,4 @@
 (executable
+ (modes byte exe)
  (name main)
  (libraries reactor logs logs.fmt fmt fmt.tty))

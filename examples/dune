@@ -1,3 +1,4 @@
 (executable
-  (name dummy)
-  (libraries reactor logs logs.fmt fmt fmt.tty))
+ (modes byte exe)
+ (name dummy)
+ (libraries reactor logs logs.fmt fmt fmt.tty))
