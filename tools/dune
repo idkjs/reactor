@@ -1,3 +1,4 @@
 (executable
-  (name log_splitter)
-  (libraries logs logs.fmt fmt fmt.tty))
+ (modes byte exe)
+ (name log_splitter)
+ (libraries logs logs.fmt fmt fmt.tty))

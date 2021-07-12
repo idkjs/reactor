@@ -22,5 +22,6 @@ Benchmarks can be run with `esy dune exec ./bench/{bench_name}.exe`
 To run the examples you can use:
 
 ```
+λ esy @examples/package.json install
 λ esy @examples/package.json dune exec --watch ./examples/sdl/gui_test.exe
 ```

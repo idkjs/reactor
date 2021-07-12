@@ -1,31 +1,42 @@
 {
   "name": "reactor",
   "version": "0.0.3",
-  "keywords": [ "Actor-model", "actor", "concurrency" ],
+  "keywords": [
+    "Actor-model",
+    "actor",
+    "concurrency"
+  ],
   "author": "Leandro Ostera <leandro@ostera.io>",
   "license": "MIT",
-  "esy": { "build": "refmterr dune build -p #{self.name}", "NOTE": "" },
+  "esy": {
+    "build": "refmterr dune build -p #{self.name}",
+    "NOTE": ""
+  },
   "scripts": {
     "docs": "esy dune build @doc",
     "open-docs": "open #{self.target_dir}/default/_doc/_html/index.html"
   },
   "dependencies": {
     "@esy-ocaml/reason": "*",
-    "@opam/alcotest": "0.8.5",
-    "@opam/benchmark": "1.6",
-    "@opam/dune": "1.8.2",
+    "@opam/alcotest": "*",
+    "@opam/benchmark": "*",
+    "@opam/dune": "*",
     "@opam/fmt": "*",
     "@opam/logs": "*",
     "@opam/lwt": "*",
-    "@opam/odoc": "1.4.0",
-    "@opam/qcheck": "0.9",
-    "@opam/qcheck-alcotest": "0.9",
-    "ocaml": "~4.7.0",
+    "@opam/odoc": "*",
+    "@opam/qcheck": "*",
+    "@opam/qcheck-alcotest": "*",
+    "ocaml": "4.12.0",
     "refmterr": "*"
   },
   "devDependencies": {
     "@opam/dune": "*",
     "@opam/merlin": "*",
-    "ocaml": "~4.7.0"
+    "ocaml": "4.12.0"
+  },
+  "resolutions": {
+    "refmterr": "jfrolich/reason-native:refmterr.json#08085a4048974b06aaf3aab918b677b39dea3d18",
+    "@esy-ocaml/reason": "EduardoRFS/reason:reason.json#35aa4df3de0daa60bdc1133dcf97855decac48f7"
   }
 }
