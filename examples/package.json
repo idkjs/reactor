@@ -9,19 +9,19 @@
     "@esy-ocaml/reason": "*",
     "@opam/fmt": "*",
     "@opam/logs": "*",
-    "@opam/tsdl": "*",
+    "@opam/tsdl": "0.9.6",
     "ocaml": "4.12.0",
     "reactor": "*",
     "refmterr": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/dune": "*",
+    "ocaml": "4.12.0"
   },
   "resolutions": {
     "refmterr": "jfrolich/reason-native:refmterr.json#08085a4048974b06aaf3aab918b677b39dea3d18",
     "reactor": "github:idkjs/reactor:reactor.opam#5826dc1",
     "@esy-ocaml/reason": "EduardoRFS/reason:reason.json#35aa4df3de0daa60bdc1133dcf97855decac48f7"
-  },
-  "devDependencies": {
-    "@opam/dune": "*",
-    "@opam/merlin": "*",
-    "ocaml": "4.12.0"
   }
 }

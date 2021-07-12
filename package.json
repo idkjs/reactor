@@ -31,6 +31,7 @@
     "refmterr": "*"
   },
   "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
     "@opam/dune": "*",
     "@opam/merlin": "*",
     "ocaml": "4.12.0"
