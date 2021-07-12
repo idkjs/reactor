@@ -16,7 +16,7 @@
   },
   "resolutions": {
     "refmterr": "jfrolich/reason-native:refmterr.json#08085a4048974b06aaf3aab918b677b39dea3d18",
-    "reactor": "github:ostera/reactor:reactor.opam#6b35625",
+    "reactor": "github:idkjs/reactor:reactor.opam#5826dc1",
     "@esy-ocaml/reason": "EduardoRFS/reason:reason.json#35aa4df3de0daa60bdc1133dcf97855decac48f7"
   },
   "devDependencies": {

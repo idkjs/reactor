@@ -1,5 +1,5 @@
 {
-  "checksum": "b6af1d7c5b899ac54b2aa153e65bdf8e",
+  "checksum": "039385a02b97502cbb7c0cb418b2a91b",
   "root": "reactor-examples@link-dev:./package.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
@@ -54,7 +54,7 @@
       "overrides": [],
       "dependencies": [
         "refmterr@github:jfrolich/reason-native:refmterr.json#08085a4048974b06aaf3aab918b677b39dea3d18@d41d8cd9",
-        "reactor@github:ostera/reactor:reactor.opam#8b1bbbb@d41d8cd9",
+        "reactor@github:ostera/reactor:reactor.opam#6b35625@d41d8cd9",
         "ocaml@4.12.0@d41d8cd9", "@opam/tsdl@opam:0.9.8@4f5c9820",
         "@opam/logs@opam:0.7.0@1d03143e", "@opam/fmt@opam:0.8.9@e0843a5b",
         "@esy-ocaml/reason@github:EduardoRFS/reason:reason.json#35aa4df3de0daa60bdc1133dcf97855decac48f7@d41d8cd9"
@@ -64,13 +64,13 @@
         "@opam/dune@opam:2.9.0@489e77a9"
       ]
     },
-    "reactor@github:ostera/reactor:reactor.opam#8b1bbbb@d41d8cd9": {
-      "id": "reactor@github:ostera/reactor:reactor.opam#8b1bbbb@d41d8cd9",
+    "reactor@github:ostera/reactor:reactor.opam#6b35625@d41d8cd9": {
+      "id": "reactor@github:ostera/reactor:reactor.opam#6b35625@d41d8cd9",
       "name": "reactor",
-      "version": "github:ostera/reactor:reactor.opam#8b1bbbb",
+      "version": "github:ostera/reactor:reactor.opam#6b35625",
       "source": {
         "type": "install",
-        "source": [ "github:ostera/reactor:reactor.opam#8b1bbbb" ]
+        "source": [ "github:ostera/reactor:reactor.opam#6b35625" ]
       },
       "overrides": [],
       "dependencies": [
@@ -912,7 +912,6 @@
         }
       ],
       "dependencies": [
-        "@opam/ctypes@opam:0.19.1@8dd3bff2",
         "@opam/conf-pkg-config@opam:2@de102891",
         "@opam/conf-libffi@opam:2.0.0@7c8981c5",
         "@esy-ocaml/substs@0.0.1@d41d8cd9",
